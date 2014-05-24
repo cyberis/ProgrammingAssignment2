@@ -1,3 +1,6 @@
+### Assessment Criteria
+*Peer Assessors, please see [Assessment.md](Assessment.md) if you have any questions about evaluting my assigment*
+
 ### Introduction
 
 This second programming assignment will require you to write an R

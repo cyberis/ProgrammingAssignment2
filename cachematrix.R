@@ -19,7 +19,7 @@ makeCacheMatrix <- function(theMatrix = matrix()) {
     
     # Get the internal matrix data
     get <- function() {
-        return(theMatrix)  # I know this isn't idiomatic R but it is consisten cross language style
+        return(theMatrix)  # I know this isn't idiomatic R but it is consistent cross language style
     }
     
     # This will store the matrix inverse
@@ -42,7 +42,7 @@ makeCacheMatrix <- function(theMatrix = matrix()) {
 
 ## Uses our Matrix Inverse Caching class to solve the first time but cache the inverse ofter that until the matrix changes
 ## Returns the Inverse from cache if already solved or from a new solution
-## NOTE: In accordance with the assignment instructions this will always assume it got an invertable matrix
+## NOTE: In accordance with the assignment instructions this will always assume it got an invertible matrix
 cacheSolve <- function(theMatrix, ...) {
     # Let's see if we already have the inverse cached
     theInverse <- theMatrix$getInverse()
